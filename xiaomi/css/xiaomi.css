@@ -1,0 +1,392 @@
+@import url(reset.css);
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.ban-n {
+  height: 120px;
+  background: #EEEEEE; }
+  .ban-n .ban-box {
+    width: 1226px;
+    margin: 0 auto; }
+
+nav {
+  background: #363636;
+  width: 100%;
+  height: 40px;
+  font-size: 12px; }
+  nav .dao-h {
+    width: 1226px;
+    margin: 0 auto; }
+    nav .dao-h .ul-daoh {
+      float: left;
+      margin-top: 14px; }
+      nav .dao-h .ul-daoh li {
+        float: left; }
+        nav .dao-h .ul-daoh li a {
+          display: inline-block;
+          padding: 0 0.9rem 0 0.8rem;
+          border-left: 1px solid #454545;
+          color: #B0B0B0;
+          line-height: 12px; }
+        nav .dao-h .ul-daoh li a:hover {
+          color: orangered; }
+      nav .dao-h .ul-daoh li:nth-of-type(1) a {
+        padding-left: 0;
+        border-left: none; }
+    nav .dao-h .nav-r {
+      float: right; }
+      nav .dao-h .nav-r .ul-dengl {
+        float: left;
+        line-height: 40px; }
+        nav .dao-h .nav-r .ul-dengl li {
+          float: left; }
+          nav .dao-h .nav-r .ul-dengl li a {
+            border-left: 1px solid #454545;
+            padding: 0 7px;
+            color: #B0B0B0;
+            display: inline-block;
+            line-height: 12px; }
+          nav .dao-h .nav-r .ul-dengl li a:hover {
+            color: orangered; }
+        nav .dao-h .nav-r .ul-dengl li:nth-of-type(1) a {
+          border-left: none; }
+      nav .dao-h .nav-r .xiaoxi {
+        float: left;
+        padding: 0 18px 0 0px;
+        margin-top: 14px; }
+        nav .dao-h .nav-r .xiaoxi a {
+          border-left: 1px solid #454545;
+          padding: 0 0.7rem;
+          color: #B0B0B0;
+          display: inline-block;
+          line-height: 12px; }
+      nav .dao-h .nav-r .gouwuche {
+        width: 120px;
+        height: 40px;
+        background: #424242;
+        float: left;
+        text-align: center;
+        position: relative; }
+        nav .dao-h .nav-r .gouwuche a {
+          color: #B0B0B0; }
+          nav .dao-h .nav-r .gouwuche a img {
+            margin-top: 14px;
+            float: left;
+            margin-left: 18px; }
+          nav .dao-h .nav-r .gouwuche a span {
+            float: left;
+            margin-top: 14px;
+            margin-left: 4px; }
+        nav .dao-h .nav-r .gouwuche .nav-che {
+          width: 300px;
+          height: 100px;
+          background: yellow;
+          position: absolute;
+          top: 40px;
+          left: -150px;
+          z-index: 3;
+          display: none; }
+
+main {
+  width: 1226px;
+  margin: 0 auto; }
+  main .xiaomi-ss {
+    height: 100px; }
+    main .xiaomi-ss p {
+      float: left;
+      margin-top: 21px; }
+    main .xiaomi-ss p:nth-of-type(2) {
+      margin-left: 80px; }
+    main .xiaomi-ss .ul-jies {
+      float: left;
+      font-size: 12px;
+      margin-top: 41px;
+      margin-left: 70px; }
+      main .xiaomi-ss .ul-jies li {
+        float: left;
+        margin: 0 10px; }
+        main .xiaomi-ss .ul-jies li a {
+          color: #000; }
+        main .xiaomi-ss .ul-jies li a:hover {
+          color: orangered; }
+    main .xiaomi-ss h6 {
+      float: right;
+      margin-top: 28px; }
+      main .xiaomi-ss h6 input {
+        float: left;
+        height: 30px;
+        text-align: center; }
+      main .xiaomi-ss h6 span {
+        float: left;
+        display: block;
+        border: 1px solid #A9A9A9;
+        border-left: none;
+        height: 34px; }
+        main .xiaomi-ss h6 span img {
+          width: 100%;
+          height: 100%; }
+  main .lun-bo {
+    position: relative;
+    height: 460px; }
+    main .lun-bo .swiper-pagination {
+      text-align: end;
+      margin-left: -100px; }
+    main .lun-bo .yi {
+      position: absolute; }
+    main .lun-bo .er {
+      position: absolute; }
+    main .lun-bo .san {
+      position: absolute; }
+    main .lun-bo .si {
+      position: absolute; }
+    main .lun-bo .wu {
+      position: absolute; }
+    main .lun-bo .ul-ding {
+      position: absolute;
+      width: 235px;
+      font-size: 12px;
+      padding: 20px 0px;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 200;
+      top: 0px; }
+      main .lun-bo .ul-ding li {
+        position: relative;
+        padding: 15px 15px;
+        color: white; }
+        main .lun-bo .ul-ding li p:nth-of-type(1) {
+          float: left; }
+        main .lun-bo .ul-ding li p:nth-of-type(2) {
+          float: right; }
+        main .lun-bo .ul-ding li .che-li1 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -20px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li2 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -62px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li3 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -104px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li4 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -146px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li5 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -188px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li6 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -230px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li7 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -272px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li8 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -314px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li9 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -356px;
+          display: none;
+          font-size: 40px; }
+        main .lun-bo .ul-ding li .che-li10 {
+          width: 800px;
+          height: 450px;
+          background: orangered;
+          position: absolute;
+          left: 235px;
+          top: -398px;
+          display: none;
+          font-size: 40px; }
+      main .lun-bo .ul-ding li:hover {
+        background: red;
+        cursor: pointer; }
+        main .lun-bo .ul-ding li:hover div {
+          display: block; }
+    main .lun-bo .img1 {
+      position: absolute;
+      z-index: 8;
+      top: 200px;
+      left: 250px;
+      cursor: pointer; }
+    main .lun-bo .img2 {
+      position: absolute;
+      z-index: 8;
+      top: 200px;
+      right: 10px;
+      cursor: pointer; }
+    main .lun-bo .dian {
+      position: absolute;
+      top: 420px;
+      text-align: end;
+      width: 100%;
+      margin-right: 20px; }
+      main .lun-bo .dian span {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border: 1px solid white;
+        border-radius: 50%;
+        background: #000;
+        opacity: 0.4; }
+      main .lun-bo .dian span:nth-of-type(5) {
+        margin-right: 50px;
+        background: white; }
+  main .gong-n {
+    width: 100%;
+    margin-top: 12px; }
+    main .gong-n .gong-n1 {
+      width: 230px;
+      background: #5F5750;
+      float: left;
+      padding: 0 3px 0 2px; }
+      main .gong-n .gong-n1 ol {
+        width: 100%; }
+        main .gong-n .gong-n1 ol li {
+          float: left;
+          width: 76px;
+          text-align: center;
+          padding: 20px 0;
+          font-size: 12px; }
+          main .gong-n .gong-n1 ol li p {
+            margin-top: 6px;
+            color: white; }
+        main .gong-n .gong-n1 ol li:nth-of-type(1) {
+          border-bottom: 1px solid #ccc; }
+        main .gong-n .gong-n1 ol li:nth-of-type(2) {
+          border: 1px solid #ccc;
+          border-top: none; }
+        main .gong-n .gong-n1 ol li:nth-of-type(3) {
+          border-bottom: 1px solid #ccc; }
+        main .gong-n .gong-n1 ol li:nth-of-type(5) {
+          border: 1px solid #ccc;
+          border-top: none;
+          border-bottom: none; }
+    main .gong-n .ul-n2 {
+      width: 991px;
+      float: left; }
+      main .gong-n .ul-n2 li {
+        width: 318px;
+        float: left;
+        margin-left: 12px; }
+        main .gong-n .ul-n2 li img {
+          width: 100%; }
+  main h3 {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 25px;
+    margin-top: 42px; }
+    main h3 .h3-a {
+      float: left; }
+    main h3 .h3-b {
+      float: right;
+      font-size: 1.4px; }
+      main h3 .h3-b span {
+        display: inline-block;
+        border: 1px solid #ccc;
+        text-align: center;
+        float: left;
+        height: 15px;
+        width: 20px;
+        line-height: 15px;
+        margin-top: 4px; }
+      main h3 .h3-b span:nth-of-type(1) {
+        color: #ccc;
+        border-right: none; }
+  main .ul-xiaomi {
+    margin-top: 16px;
+    padding-bottom: 40px; }
+    main .ul-xiaomi li {
+      width: 235.6px;
+      background: #FAFAFA;
+      text-align: center;
+      font-size: 14px;
+      padding-bottom: 42px;
+      float: left;
+      margin-left: 12px;
+      transition: 0.3s; }
+      main .ul-xiaomi li a {
+        color: #000000; }
+        main .ul-xiaomi li a p:nth-of-type(1) {
+          padding-top: 40px;
+          width: 110px;
+          margin: 0 auto; }
+          main .ul-xiaomi li a p:nth-of-type(1) img {
+            width: 100%; }
+        main .ul-xiaomi li a p:nth-of-type(2) {
+          margin-top: 36px; }
+        main .ul-xiaomi li a p:nth-of-type(3) {
+          margin-top: 12px;
+          color: #ccc; }
+        main .ul-xiaomi li a span {
+          display: block;
+          margin-top: 17px;
+          color: #FF752F; }
+    main .ul-xiaomi li:nth-of-type(1) {
+      border-top: #FCE1B0 2px solid;
+      margin-left: 0; }
+    main .ul-xiaomi li:nth-of-type(2) {
+      border-top: #D4E9C3 2px solid; }
+    main .ul-xiaomi li:nth-of-type(3) {
+      border-top: #B5DAF8 2px solid; }
+    main .ul-xiaomi li:nth-of-type(4) {
+      border-top: #F3BCBB 2px solid; }
+    main .ul-xiaomi li:nth-of-type(5) {
+      border-top: #AAE7DF 2px solid; }
+    main .ul-xiaomi li:hover {
+      box-shadow: 5px 5px 10px 2px #ccc;
+      transform: scale(1.02);
+      margin-top: -5px; }
+
+/*# sourceMappingURL=xiaomi.css.map */
